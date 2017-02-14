@@ -1,0 +1,45 @@
+/* line 1, C:/Users/tbrit/Documents/GIT projects/JS clock/sass/stylesheet.sass */
+body {
+  background-image: url("bg.jpeg");
+  background-size: cover;
+  background-position: bottom;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+/* line 12, C:/Users/tbrit/Documents/GIT projects/JS clock/sass/stylesheet.sass */
+.clock {
+  width: 20rem;
+  height: 20rem;
+  padding: 2rem;
+  margin: 50px auto;
+  position: relative;
+  border: 20px solid white;
+  border-radius: 50%;
+  box-shadow: 0 0 20px gray;
+}
+
+/* line 22, C:/Users/tbrit/Documents/GIT projects/JS clock/sass/stylesheet.sass */
+.circle {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform: translateY(-3px);
+}
+
+/* line 28, C:/Users/tbrit/Documents/GIT projects/JS clock/sass/stylesheet.sass */
+.hand {
+  height: 6px;
+  width: 50%;
+  background-color: black;
+  position: absolute;
+  top: 50%;
+  transform: rotate(90deg);
+  transform-origin: 100%;
+}
+
+/*# sourceMappingURL=../stylesheet.map */
