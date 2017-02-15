@@ -1,4 +1,4 @@
-/* line 1, C:/Users/tbrit/Documents/GIT projects/JS clock/sass/stylesheet.sass */
+/* line 7, C:/Users/tbrit/Documents/GIT projects/JS clock/sass/stylesheet.sass */
 body {
   background-image: url("bg.jpeg");
   background-size: cover;
@@ -11,7 +11,7 @@ body {
   overflow: hidden;
 }
 
-/* line 12, C:/Users/tbrit/Documents/GIT projects/JS clock/sass/stylesheet.sass */
+/* line 18, C:/Users/tbrit/Documents/GIT projects/JS clock/sass/stylesheet.sass */
 .clock {
   width: 20rem;
   height: 20rem;
@@ -23,7 +23,7 @@ body {
   box-shadow: 0 0 20px gray;
 }
 
-/* line 22, C:/Users/tbrit/Documents/GIT projects/JS clock/sass/stylesheet.sass */
+/* line 28, C:/Users/tbrit/Documents/GIT projects/JS clock/sass/stylesheet.sass */
 .circle {
   position: relative;
   width: 100%;
@@ -31,15 +31,42 @@ body {
   transform: translateY(-3px);
 }
 
-/* line 28, C:/Users/tbrit/Documents/GIT projects/JS clock/sass/stylesheet.sass */
+/* line 34, C:/Users/tbrit/Documents/GIT projects/JS clock/sass/stylesheet.sass */
 .hand {
   height: 6px;
   width: 50%;
   background-color: black;
   position: absolute;
   top: 50%;
+  border-radius: 5px;
   transform: rotate(90deg);
   transform-origin: 100%;
+  transition: all .05s;
+  transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+}
+
+/* line 46, C:/Users/tbrit/Documents/GIT projects/JS clock/sass/stylesheet.sass */
+.sec {
+  width: 35%;
+  margin: 0 48px;
+  background-color: #fbf67c;
+  box-shadow: 0 0 3px #d7cf07;
+}
+
+/* line 52, C:/Users/tbrit/Documents/GIT projects/JS clock/sass/stylesheet.sass */
+.min {
+  width: 43%;
+  margin: 0 7.3%;
+  background-color: #f71919;
+  box-shadow: 0 0 1px #a40606;
+}
+
+/* line 58, C:/Users/tbrit/Documents/GIT projects/JS clock/sass/stylesheet.sass */
+.hour {
+  width: 50%;
+  margin: 0 auto;
+  background-color: black;
+  box-shadow: 0 0 3px black;
 }
 
 /*# sourceMappingURL=../stylesheet.map */

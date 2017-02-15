@@ -1,3 +1,9 @@
+$brown: rgba(35, 0, 7, 1)
+$yellow: rgba(215, 207, 7, 1)
+$orange: rgba(217, 131, 36, 1)
+$red: rgba(164, 6, 6, 1)
+$darkRed: rgba(90, 0, 2, 1)
+
 body
   background-image: url("bg.jpeg")
   background-size: cover
@@ -31,5 +37,26 @@ body
   background-color: black
   position: absolute
   top: 50%
+  border-radius: 5px
   transform: rotate(90deg)
   transform-origin: 100%
+  transition: all .05s
+  transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1)
+
+.sec
+  width: 35%
+  margin: 0 48px
+  background-color: lighten($yellow, 30%)
+  box-shadow: 0 0 3px $yellow
+
+.min
+  width: 43%
+  margin: 0 7.3%
+  background-color: lighten($red, 20%)
+  box-shadow: 0 0 1px $red
+
+.hour
+  width: 50%
+  margin: 0 auto
+  background-color: black
+  box-shadow: 0 0 3px black
